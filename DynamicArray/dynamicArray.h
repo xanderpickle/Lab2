@@ -9,9 +9,9 @@ public:
 	DynamicArray();
 	DynamicArray(unsigned int _capacite);
 	~DynamicArray();
-	unsigned int getCapacite();
+	unsigned int getCapacite() const;
 	void setCapacite(unsigned int _capacite);
-	int getElement(unsigned int _index);
+	int getElement(unsigned int _index) const;
 	void setElement(unsigned int _index, int _valeur);
 private:
 	unsigned int capacite;
